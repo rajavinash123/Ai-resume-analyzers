@@ -150,3 +150,25 @@ form {
     opacity: 1;
   }
 }
+
+
+.feature-card {
+  @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow;
+}
+
+.step-card {
+  @apply bg-white p-6 rounded-xl shadow-lg relative;
+}
+
+.step-number {
+  @apply absolute -top-4 -left-4 w-8 h-8 rounded-full bg-blue-500 text-white
+  flex items-center justify-center font-bold;
+}
+
+.suggestion-item {
+  @apply flex items-center gap-2 p-3 border-b border-gray-100 text-gray-700;
+}
+
+.insight-card {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}

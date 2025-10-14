@@ -239,3 +239,6 @@ export const prepareInstructions = ({jobTitle, jobDescription}: { jobTitle: stri
       ${AIResponseFormat}
       Return the analysis as an JSON object, without any other text and without the backticks.
       Do not include any other text or comments.`;
+
+
+      

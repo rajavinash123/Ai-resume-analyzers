@@ -142,7 +142,7 @@ export default function Home() {
                 landing interviews.
               </p>
               <a
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://youtu.be/M5sNp-7bvx4?si=i7WquCkZzROoBAVB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-pink-500 to-indigo-500 text-white font-semibold rounded-full px-8 py-3 shadow-lg"
@@ -157,13 +157,14 @@ export default function Home() {
               transition={{ delay: 0.2 }}
             >
               <img
-                src="/images/dashboard-preview.png"
+                  src="/images/goodresume.png"
                 className="rounded-2xl shadow-2xl"
                 alt="Dashboard Preview"
               />
-              <div className="absolute top-4 right-4 bg-green-100 text-green-800 px-4 py-2 rounded-full animate-bounce">
-                ATS Score: 88%
+              <div className="absolute top-4 right-4 bg-green-100 text-red-800 px-4 py-2 rounded-full animate-bounce">
+                ATS Score: 60%
               </div>
+              
               <div className="absolute bottom-4 left-4 bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center gap-2">
                 <span className="animate-pulse">●</span>
                 AI Suggestions Ready!
